@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nome Cognome</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav class="nav">
+        <a class="active" href="index.html">Home</a>
+        <a href="bio.html">Bio</a>
+        <a href="research.html">Research</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Nome Cognome</h1>
+    <p class="small">Ruolo / Affiliazione — Città</p>
+
+    <div class="card">
+      <p>
+        Benvenuto! Qui puoi mettere una breve descrizione (2–4 righe) di chi sei e di cosa fai.
+      </p>
+      <p>
+        Link rapidi: <a href="research.html">Research</a> • <a href="cv.html">CV</a>
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container small">
+      © <span id="year"></span> Nome Cognome
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
