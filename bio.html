@@ -1,46 +1,112 @@
-<!doctype html>
-<html lang="it">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Bio — Ettore Bronzini</title>
-  <link rel="stylesheet" href="assets/style.css" />
-</head>
-<body>
-  <header>
-    <div class="container">
-      <nav class="nav">
-        <a href="index.html">Home</a>
-        <a class="active" href="bio.html">Bio</a>
-        <a href="research.html">Research</a>
-        <a href="cv.html">CV</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+<!DOCTYPE HTML>
+<!--
+  Dimension by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license
+-->
+<html>
+  <head>
+    <title>Bio — Ettore Bronzini</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  </head>
+
+  <body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+      <!-- Header -->
+      <header id="header">
+        <div class="logo">
+          <!-- se hai già messo la foto, usa <img> invece dello span -->
+          <span class="icon fa-gem"></span>
+        </div>
+
+        <div class="content">
+          <div class="inner">
+            <h1>Ettore Bronzini</h1>
+            <p>High-energy astrophysicist — INAF-OAS Bologna</p>
+          </div>
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="bio.html">Bio</a></li>
+            <li><a href="work.html">Research</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Main -->
+      <div id="main">
+
+        <!-- Bio -->
+        <article class="active">
+          <h2 class="major">Bio</h2>
+
+          <span class="image main">
+            <img src="images/pic03.jpg" alt="Ettore Bronzini" />
+          </span>
+
+          <p>
+            I am a high-energy astrophysicist currently working as a fixed-term
+            researcher at the INAF–Osservatorio di Astrofisica e Scienza dello
+            Spazio (OAS) in Bologna, Italy.
+          </p>
+
+          <p>
+            My research focuses on the physics of relativistic jets launched by
+            supermassive black holes, studied through a combination of
+            observational data and theoretical modeling. I am particularly
+            interested in particle acceleration processes, jet–disc coupling,
+            and multiwavelength variability in active galactic nuclei.
+          </p>
+
+          <p>
+            I obtained my PhD in Astrophysics working on high-energy emission
+            processes in AGN jets, and I have been involved in several national
+            and international collaborations.
+          </p>
+
+          <h3>Research interests</h3>
+          <ul>
+            <li>Relativistic jets and AGN</li>
+            <li>High-energy emission mechanisms</li>
+            <li>Particle acceleration</li>
+            <li>Multiwavelength variability</li>
+          </ul>
+        </article>
+
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <p class="copyright">
+          &copy; Ettore Bronzini <span id="year"></span> · Inspired by HTML5 UP
+        </p>
+      </footer>
+
     </div>
-  </header>
 
-  <main class="container">
-    <h1>Bio</h1>
+    <!-- BG -->
+    <div id="bg"></div>
 
-    <div class="card">
-      <p>
-        My name is Ettore Bronzini and I was born in Bari, an astonishing city in the heel of Italy.
-      </p>
-    </div>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
 
-    <div class="card">
-      <h2>Interessi</h2>
-      <ul>
-        <li>Topic 1</li>
-        <li>Topic 2</li>
-        <li>Topic 3</li>
-      </ul>
-    </div>
-  </main>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 
-  <footer>
-    <div class="container small">© <span id="year"></span> Nome Cognome</div>
-  </footer>
-  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
-</body>
+  </body>
 </html>
